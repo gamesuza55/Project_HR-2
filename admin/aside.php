@@ -21,7 +21,7 @@
       <li class="header">รายงาน</li>
       <!-- Optionally, you can add icons to the links -->
       <li class="<?php if($page == 'dashboard') { echo "active"; } ?>"><a href="<?php echo PATH;?>/index.php"><i class="fa fa-dashboard"></i> <span>รายงานสรุป</span></a></li>
-      <li><a href="<?php PATH;?>/Project_HR-master/payroll"><i class="fa fa-btc"></i> <span>ระบบบัญชี</span></a></li>
+      <li><a href="<?php PATH;?>/../payroll"><i class="fa fa-btc"></i> <span>ระบบบัญชี</span></a></li>
       <li class="header">ระบบงาน</li>
       <li class="treeview <?php if($page == 'leave_staff' || $page == 'leave_check' || $page == 'report_leave' ) { echo "active"; }  ?> ">
         <a href="#">
